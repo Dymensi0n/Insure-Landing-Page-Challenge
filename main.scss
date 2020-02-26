@@ -1,13 +1,32 @@
+$dark-violet: hsl(256, 26%, 20%);
 
-nav {
+$theme-colors: (
+  "primary": #2d2640,
+  "danger": #ff4136
+);
 
+.navbar {
+    padding: 1% 10%;
 }
 
 .nav-item {
     text-decoration: none;
 }
 
+.nav-link {
+    text-align: right;
+    font-size: 0.75rem;
+}
+
+.nav-view-plans {
+    border: solid black;
+}
+
+#title {
+    background: $dark-violet;
+}
+
 body {
-    
+
     font-family: 'Karla', sans-serif;
 }

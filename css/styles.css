@@ -1,5 +1,22 @@
+.navbar {
+  padding: 1% 10%;
+}
+
 .nav-item {
   text-decoration: none;
+}
+
+.nav-link {
+  text-align: right;
+  font-size: 0.75rem;
+}
+
+.nav-view-plans {
+  border: solid black;
+}
+
+#title {
+  background: #2d2640;
 }
 
 body {
