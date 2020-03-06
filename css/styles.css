@@ -19,6 +19,22 @@
   background: #2d2640;
 }
 
+#header {
+  font-family: "DM Serif Display", serif;
+  font-size: 3rem;
+  font-weight: 400;
+  padding: 5% 5% 10% 10%;
+  width: 40%;
+  margin: 5%;
+}
+
+.title-img {
+  float: right;
+  position: absolute;
+  right: 150px;
+  top: 150px;
+}
+
 body {
   font-family: "Karla", sans-serif;
 }

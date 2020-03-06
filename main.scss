@@ -1,4 +1,5 @@
 $dark-violet: hsl(256, 26%, 20%);
+$dm-font: 'DM Serif Display', serif;
 
 $theme-colors: (
   "primary": #2d2640,
@@ -26,7 +27,26 @@ $theme-colors: (
     background: $dark-violet;
 }
 
+#header {
+    font-family: $dm-font;
+    font-size: 3rem;
+    font-weight: 400;
+    padding: 5% 5% 10% 10%;
+    width: 40%;
+    margin: 5%;
+}  
+
+.title-img {
+    float: right;
+    position: absolute;
+    right: 150px;
+    top: 150px;
+}
+
 body {
 
     font-family: 'Karla', sans-serif;
 }
+
+// Command to load sass and watch for updates
+// sass --watch main.scss css/styles.css
