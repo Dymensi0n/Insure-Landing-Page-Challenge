@@ -1,5 +1,7 @@
 $dark-violet: hsl(256, 26%, 20%);
 $dm-font: 'DM Serif Display', serif;
+$break-small: 375px;
+$break-large: 1440px;
 
 $theme-colors: (
   "primary": #2d2640,
@@ -46,6 +48,20 @@ $theme-colors: (
 body {
 
     font-family: 'Karla', sans-serif;
+}
+
+@media (max-width: $break-large) {
+    
+}
+
+@media (max-width: $break-small) {
+    
+    .title-img {
+        float: none;
+        position: relative;
+        width: 100%;
+        padding: 0;
+    }
 }
 
 // Command to load sass and watch for updates

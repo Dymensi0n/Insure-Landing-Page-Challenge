@@ -39,4 +39,13 @@ body {
   font-family: "Karla", sans-serif;
 }
 
+@media (max-width: 375px) {
+  .title-img {
+    float: none;
+    position: relative;
+    width: 100%;
+    padding: 0;
+  }
+}
+
 /*# sourceMappingURL=styles.css.map */
