@@ -1,5 +1,5 @@
 .navbar {
-  padding: 1% 10%;
+  padding: 1% 10% 0 10%;
 }
 
 .nav-item {
@@ -19,13 +19,44 @@
   background: #2d2640;
 }
 
+.header-bg {
+  padding: 0 0 15% 0;
+  width: 100%;
+  margin: 0;
+  background-color: #2d2640;
+}
+
 #header {
-  font-family: "DM Serif Display", serif;
-  font-size: 3rem;
-  font-weight: 400;
-  padding: 5% 5% 10% 10%;
+  padding: 10% 1.5% 0 7%;
+  margin: auto 5%;
   width: 40%;
-  margin: 5%;
+  color: white;
+}
+
+h1 {
+  font-family: "DM Serif Display", serif;
+  font-size: 3.5rem;
+  font-weight: 400;
+}
+
+.sub-text {
+  color: white;
+  width: 40%;
+  padding: 0.5% 1.5% 1rem 7%;
+  margin: auto 5%;
+  font-size: 0.75rem;
+}
+
+.btn-viewplans {
+  padding: 0.5% 1.5% 1rem 7%;
+  margin: auto 5%;
+  width: 40%;
+}
+
+.viewplans {
+  font-size: 1rem;
+  font-weight: bold;
+  width: 35%;
 }
 
 .title-img {
@@ -36,6 +67,8 @@
 }
 
 body {
+  padding: 0;
+  margin: 0;
   font-family: "Karla", sans-serif;
 }
 
