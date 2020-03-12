@@ -9,7 +9,8 @@ $theme-colors: (
 );
 
 .navbar {
-    padding: 1% 10% 0 10%;
+    z-index: 1;
+    padding: 1% 10% 1.5% 10%;
 }
 
 .nav-item {
@@ -30,7 +31,7 @@ $theme-colors: (
 }
 
 .header-bg {
-    padding: 0 0 15% 0;
+    padding: 0 0 7% 0;
     width: 100%;
     margin: 0;
     background-color: $dark-violet;
@@ -39,19 +40,19 @@ $theme-colors: (
 #header {
     padding: 10% 1.5% 0 7%;
     margin: auto 5%;
-    width: 40%;
+    width: 43%;
     color: white;
 }
 
 h1 {
     font-family: $dm-font;
-    font-size: 3.5rem;
+    font-size: 3.9rem;
     font-weight: 400;
 }
 
 .sub-text {
     color: white;
-    width: 40%;
+    width: 43%;
     padding: 0.5% 1.5% 1rem 7%;
     margin: auto 5%;
     font-size: 0.75rem;
@@ -60,20 +61,40 @@ h1 {
 .btn-viewplans {
     padding: 0.5% 1.5% 1rem 7%;
     margin: auto 5%;
-    width: 40%;
+    width: 43%;
 }
 
 .viewplans {
     font-size: 1rem;
     font-weight: bold;
-    width: 35%;
+    width: 30%;
 }
 
 .title-img {
     float: right;
     position: absolute;
+    width: 37.5%;
     right: 150px;
     top: 150px;
+}
+
+.svg-header-right {
+    position: absolute;
+    z-index: 0;
+    top: 0;
+    right: 0;
+}
+.svg-header-left {
+    position: absolute;
+    z-index: 0;
+    top: 460px;
+    left: 0;
+}
+
+.feature-bg {
+    padding: 24% 0 8% 10%;
+    width: 100%;
+    margin: 0;
 }
 
 body {
