@@ -5,15 +5,28 @@
 
 .nav-item {
   text-decoration: none;
+  padding: 0;
+  margin: auto;
 }
 
 .nav-link {
   text-align: right;
   font-size: 0.75rem;
+  margin: auto;
+}
+
+.nav-link:hover {
+  font-weight: bold;
 }
 
 .nav-view-plans {
-  border: solid black;
+  border: solid 2px black;
+}
+
+.nav-view-plans:hover {
+  color: white;
+  border: solid 2px black;
+  background: black;
 }
 
 #title {
@@ -21,16 +34,16 @@
 }
 
 .header-bg {
-  padding: 0 0 7% 0;
+  padding: 0 0 6.5% 0;
   width: 100%;
   margin: 0;
   background-color: #2d2640;
 }
 
 #header {
-  padding: 10% 1.5% 0 7%;
+  padding: 11% 1.5% 0 7%;
   margin: auto 5%;
-  width: 43%;
+  width: 45%;
   color: white;
 }
 
@@ -38,26 +51,45 @@ h1 {
   font-family: "DM Serif Display", serif;
   font-size: 3.9rem;
   font-weight: 400;
+  line-height: 4rem;
+}
+
+h2 {
+  font-size: 1rem;
+}
+
+h3 {
+  font-family: "DM Serif Display", serif;
+  font-size: 1.5rem;
+  font-weight: 400;
+  line-height: 2rem;
 }
 
 .sub-text {
   color: white;
-  width: 43%;
-  padding: 0.5% 1.5% 1rem 7%;
+  width: 45%;
+  padding: 1% 1.5% 1rem 7%;
   margin: auto 5%;
-  font-size: 0.75rem;
+  font-size: 0.8rem;
 }
 
 .btn-viewplans {
-  padding: 0.5% 1.5% 1rem 7%;
+  padding: 0 1.5% 1rem 7%;
   margin: auto 5%;
   width: 43%;
 }
 
 .viewplans {
   font-size: 1rem;
-  font-weight: bold;
-  width: 30%;
+  width: 35%;
+  border: solid white;
+  background: #2d2640;
+}
+
+.viewplans:hover {
+  border: solid black;
+  background: white;
+  color: black;
 }
 
 .title-img {
@@ -65,7 +97,7 @@ h1 {
   position: absolute;
   width: 37.5%;
   right: 150px;
-  top: 150px;
+  top: 160px;
 }
 
 .svg-header-right {
@@ -86,6 +118,33 @@ h1 {
   padding: 24% 0 8% 10%;
   width: 100%;
   margin: 0;
+}
+
+#footer {
+  background: #eeeeee;
+}
+
+.icon {
+  padding: 20% 0 10% 0;
+}
+
+.line1 {
+  position: absolute;
+  top: 160px;
+  left: 150px;
+  border: solid 0.04rem white;
+  width: 10%;
+}
+
+.line2 {
+  position: relative;
+  top: -50px;
+  border: solid 0.04rem grey;
+  width: 12%;
+}
+
+p {
+  font-size: 0.8rem;
 }
 
 body {
