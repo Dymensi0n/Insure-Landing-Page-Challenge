@@ -1,3 +1,9 @@
+# I built a landing page from scratch using a mockup design challenge listed below.
+
+#### The goal is to create the page as close ass possible to the mockup, however I did not have any of the dimensions of the DOM elements so it may not look 100% pixel perfect. Read about challenge below...
+
+#### Languages used: HTML, CSS, Bootstrap, & Sass
+
 # Frontend Mentor - Insure landing page
 
 ![Design preview for the Insure landing page coding challenge](./design/desktop-preview.jpg)
