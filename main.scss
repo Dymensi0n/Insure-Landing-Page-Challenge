@@ -10,7 +10,7 @@ $theme-colors: (
 
 .navbar {
     z-index: 1;
-    padding: 1% 10% 1.5% 10%;
+    padding: 1.25% 10% 1.25% 10%;
 }
 
 .nav-item {
@@ -27,17 +27,6 @@ $theme-colors: (
 
 .nav-link:hover {
     font-weight: bold;
-}
-
-.nav-view-plans {
-    border: solid 2px black;
-}
-
-.nav-view-plans:hover {
-    color: white;
-    border: solid 2px black;
-    background: black;
-    
 }
 
 #title {
@@ -125,9 +114,54 @@ h3 {
 }
 
 .feature-bg {
-    padding: 24% 0 8% 10%;
+    padding: 24% 0 0 15%;
     width: 100%;
     margin: 0;
+}
+
+.container {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    margin: 0;
+}
+
+.how-pattern {
+    position: relative;
+    width: 32%;
+    height: 32%;
+    bottom: -210px;
+    left: 632px;
+}
+
+#banner {
+    padding: 0;
+    margin-top: 0;
+    width: 100%;
+    margin: auto;
+}
+
+.info-banner {
+    background: $dark-violet;
+    width: 75%;
+    padding: 1% 2%;
+    margin: auto;
+}
+
+.info-text {
+    padding: 5% 8%;
+    color: white;
+    font-size: 3rem;
+    line-height: 3rem;
+}
+
+.btn-how {
+    padding: 0;
+    margin: auto 0 auto 100px;
+}
+
+.btn-how-text {
+    width: 100%;
 }
 
 #footer {
